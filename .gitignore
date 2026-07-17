@@ -1,0 +1,26 @@
+# --- Salidas de entrenamiento (pesos/checkpoints; grandes -> GitHub Release) ---
+Modelos/runs/
+
+# --- Datasets intermedios (mantener solo dataset_unificado) ---
+Modelos/imagenes/
+Modelos/dataset/
+Modelos/dataset_nuevo/
+Modelos/dataset_arrows/
+Modelos/dataset_live/
+
+# --- Logs de navegación (regenerables) ---
+logs/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# --- Metadatos de Windows / editor / OS ---
+*:Zone.Identifier
+*.Zone.Identifier
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

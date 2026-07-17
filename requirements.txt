@@ -1,0 +1,13 @@
+torch
+torchvision
+numpy
+opencv-python
+matplotlib
+scikit-learn
+Pillow
+
+# Notas:
+# - Los bindings de Gazebo (gz.transport13, gz.msgs10) NO se instalan con pip:
+#   vienen con la instalación de Gazebo (probado en WSL2). Solo son necesarios
+#   para la parte de navegación (carpeta Robot/).
+# - statsmodels solo es necesario si se reproduce el test de significancia (McNemar).
